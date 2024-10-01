@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 2;
+  background-color: black;
+}
+
+.left-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-head img {
+  height: 150px;
+  width: 150px;
+  border: 2px solid pink;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+.left-head-name {
+  color: pink;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.left-head-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  font-size: 35px;
+}
+
+.left-head-item a {
+  color: pink;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+.left-head-item :first-child {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.left-head-item :last-child {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.left-head-item a {
+  border: 2px solid pink;
+}
+
+.left-head-item a:hover {
+  background-color: rgb(194, 33, 130);
+}
+
+.left-body {
+  padding-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-body a {
+  color: pink;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 40px;
+  gap: 30px;
+}
+
+.left-body a:hover {
+  background-color: rgb(194, 33, 130);
+  color: yellow;
+}
+
+.left-body a i {
+  font-size: 30px;
+}
+
+.right {
+  flex: 4;
+  position: relative;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
